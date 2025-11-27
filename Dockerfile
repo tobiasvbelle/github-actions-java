@@ -17,7 +17,7 @@ RUN mvn package -DskipTests
 RUN mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 
 # Production stage
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk-slim-bullseye
 
 # Create non-root user for security
 RUN groupadd -r spring && useradd -r -g spring spring
