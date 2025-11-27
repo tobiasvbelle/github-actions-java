@@ -1,4 +1,4 @@
-# DevOps Training Project
+# DevOps Training Project Tobias
 
 A Spring Boot application designed for DevOps training with linting, testing, and CI/CD pipeline examples.
 
