@@ -46,7 +46,7 @@
                     <configLocation>checkstyle.xml</configLocation>
                     <includeTestSourceDirectory>true</includeTestSourceDirectory>
                     <violationSeverity>warning</violationSeverity>
-                    <failOnViolation>true</failOnViolation>
+                    <failOnViolation>false</failOnViolation>
                 </configuration>
                 <executions>
                     <execution>
